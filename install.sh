@@ -106,8 +106,6 @@ install_soga() {
         last_version=$1
         url="https://github.com/maomao1973/crack-soga-v2ray/releases/download/${last_version}/soga-cracked-linux64.tar.gz"
         echo -e "开始安装 soga v$1"
-        echo '127.0.0.1       soga.sprov.xyz' | sudo tee -a /etc/hosts
-        echo '127.0.0.1       doc.sprov.xyz' | sudo tee -a /etc/hosts
         wget -N --no-check-certificate -O /usr/local/soga.tar.gz ${url}
         if [[ $? -ne 0 ]]; then
             echo -e "${red}下载 soga v$1 失败，请确保此版本存在${plain}"
