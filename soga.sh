@@ -365,7 +365,7 @@ show_usage() {
 show_menu() {
     echo -e "
   ${green}soga 后端管理脚本，${plain}${red}不适用于docker${plain}
---- https://github.com/RManLuo/crack-soga-v2ray ---
+--- https://github.com/maomao1973/crack-soga-v2ray ---
   ${green}0.${plain} 退出脚本
 ————————————————
   ${green}1.${plain} 安装 soga
