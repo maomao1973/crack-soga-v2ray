@@ -1,4 +1,8 @@
 ``` bash
+echo '127.0.0.1       soga.sprov.xyz' | sudo tee -a /etc/hosts
+echo '127.0.0.1       doc.sprov.xyz' | sudo tee -a /etc/hosts
+```
+``` bash
 sudo bash < <(curl -Ls https://raw.githubusercontent.com/maomao1973/crack-soga-v2ray/master/install.sh)
 ```
  /etc/soga/soga.conf<br/>
